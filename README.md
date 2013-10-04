@@ -5,13 +5,15 @@
 * windows 
     * cd %userprofile%
     * git clone git@github.com:zixiaojindao/vimconfig.git .vim
-    * mv .vim/_vimrc _vimrc
-    * gvim _vimrc
+    * mv .vim/\_vimrc \_vimrc
+    * gvim \_vimrc
     * :BundleInstall
 * linux
     * cd ~
-    * git clone git@github.com:zixiaojindao/vimconfig.git .vim
-    * mv .vim/_vimrc vimrc
+    * git clone git@github.com:zixiaojindao/vimconfig.git vimconfi
+    * cp vimconfig/\_vimrc .vimrc
+    * cp -r vimconfig/tags .vim/
+    * cp vimconfig/neocomplcache.vimrc .vim/
     * vim vimrc
     * :BundleInstall
 

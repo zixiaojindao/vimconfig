@@ -21,9 +21,18 @@ set nocp
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
+if(has("win32") || has("win95") || has("win64") || has("win16"))
+    let g:iswindows=1
+else
+    let g:iswindows=0
+endif
 
 filetype off
-set rtp+=$HOME/vimfiles/bundle/vundle/
+if(g:iswindows==1)
+    set rtp+=$HOME/vimfiles/bundle/vundle/
+else
+    set rtp+=$HOME/.vim/bundle/vundle/
+endif
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
@@ -49,7 +58,6 @@ let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 let Tlist_Use_Right_Window=1
 nmap tl :Tlist<cr>
-
 
 " OmniCppComplete
 let OmniCpp_NamespaceSearch = 1
@@ -109,11 +117,7 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
-if(has("win32") || has("win95") || has("win64") || has("win16"))
-    let g:iswindows=1
-else
-    let g:iswindows=0
-endif
+
 autocmd BufEnter * lcd %:p:h
 
 "ctags & cscope
