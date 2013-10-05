@@ -50,6 +50,7 @@ Bundle 'The-NERD-Commenter'
 Bundle 'OmniCppComplete'
 Bundle 'xml.vim'
 Bundle 'Pydiction'
+Bundle 'matrix.vim--Yang'
 
 filetype plugin indent on
 filetype plugin on
