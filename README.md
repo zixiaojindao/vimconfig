@@ -4,17 +4,17 @@
 ###Install
 * windows 
     * cd %userprofile%
-    * git clone git@github.com:zixiaojindao/vimconfig.git .vim
-    * mv .vim/\_vimrc \_vimrc
+    * git clone git@github.com:zixiaojindao/vimconfig.git vimconfig
+    * vimconfig\install.cmd
+    * #add .vim/tools to your path
     * gvim \_vimrc
     * :BundleInstall
 * linux
     * cd ~
-    * git clone git@github.com:zixiaojindao/vimconfig.git vimconfi
-    * cp vimconfig/\_vimrc .vimrc
-    * cp -r vimconfig/tags .vim/
-    * cp vimconfig/neocomplcache.vimrc .vim/
-    * vim vimrc
+    * git clone git@github.com:zixiaojindao/vimconfig.git vimconfig
+    * chmod a+x ./vimconfig/install.sh
+    * ./vimconfig/install.sh
+    * gvim vimrc
     * :BundleInstall
 
 ###plugin
@@ -46,5 +46,8 @@
 * solarized color scheme
 * highlight current line
     *shortcut: normal mode: cul
+###Caution
+The color scheme used is [solarized](http://ethanschoonover.com/solarized). It works fine when gui is running. However, you have to do a little more if you prefer terminal. Please get rid of the [official web site](http://ethanschoonover.com/solarized) and refer to [gist1](https://gist.github.com/gmodarelli/5942850) or [gist2](https://gist.github.com/codeforkjeff/1397104#file-solarize-sh).
 ###ScreenShot
 ![scrrenshot](http://thumbsnap.com/i/9I2PtKPF.png)
+

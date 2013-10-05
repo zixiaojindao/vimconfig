@@ -250,11 +250,13 @@ endfunction
 
 syntax enable
 syntax on
+set t_Co=16
+set background=dark
 let g:solarized_contrast="high" 
 colors solarized
 
 "highlight
-set cursorline
+"set cursorline
 nnoremap cul :set cursorline!<CR>
 hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE guibg=black
 set tags+=$HOME/.vim/tags/stdtags
