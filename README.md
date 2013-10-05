@@ -45,9 +45,9 @@
     * windows users should download [mingw](http://www.mingw.org/), install gcc and add bin to $PATH
 * solarized color scheme
 * highlight current line
-    *shortcut: normal mode: cul
+    * shortcut: normal mode: cul
 * matrix.vim 
-    *type ':Matrix', take fun!
+    * type ':Matrix', take fun!
 
 ###Caution
 The color scheme used is [solarized](http://ethanschoonover.com/solarized). It works fine when gui is running. However, you have to do a little more if you prefer terminal. Please get rid of the [official web site](http://ethanschoonover.com/solarized) and refer to [gist1](https://gist.github.com/gmodarelli/5942850) or [gist2](https://gist.github.com/codeforkjeff/1397104#file-solarize-sh).
