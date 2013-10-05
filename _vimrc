@@ -71,10 +71,11 @@ let OmniCpp_MayCompleteScope = 1 " 输入 :: 后自动补全
 let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 
 "minibuffer
+let g:miniBufExplorerMoreThanOne=0
+let g:miniBufExplMapWindowNavVim=1 
+let g:miniBufExplMapWindowNavArrows=1 
 let g:miniBufExplMapCTabSwitchBufs=1
-"let g:miniBufExplorerMoreThanOne = 0
-let g:miniBufExplMapWindowNavVim = 1 
-let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplModSelTarget=1
 
 "python
 let g:pydiction_location = '$HOME/.vim/bundle/Pydiction/complete-dict'
