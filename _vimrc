@@ -36,6 +36,8 @@ endif
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'zixiaojindao/calendar.vim'
 Bundle 'zixiaojindao/cscope_maps.vim'
@@ -92,6 +94,11 @@ nmap nt :NERDTreeToggle<CR>
 
 "Calendar
 nmap ca :Calendar<CR>
+
+"fuzzyfinder
+nmap ff :FufFile<CR>
+nmap ft :FufTag<CR>
+nmap ftf :FufTaggedFile<CR>
 
 "diff
 set diffexpr=MyDiff()

@@ -31,7 +31,10 @@
 * ctags & cscope: 
     * &lt;F12&gt; generate tags and cscope.out
     * already added c++ std tags in .vim/tags
-* NERD\_comment: head is ","
+* NERD\_comment: 
+    * head is ","
+* FuzzyFinder:
+    * shortcut: normal mode: ff, ft, ftf 
 * Calendar:
     * shortcut: normal mode: ca
     * &lt;Up&gt; &lt;Down&gt; switch by year
