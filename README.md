@@ -4,14 +4,14 @@
 ###Install
 * windows 
     * cd %userprofile%
-    * git clone git@github.com:zixiaojindao/vimconfig.git vimconfig
+    * git clone https://github.com/zixiaojindao/vimconfig.git vimconfig
     * vimconfig\install.cmd
     * #add .vim/tools to your path
     * gvim \_vimrc
     * :BundleInstall
 * linux
     * cd ~
-    * git clone git@github.com:zixiaojindao/vimconfig.git vimconfig
+    * git clone https://github.com/zixiaojindao/vimconfig.git vimconfig
     * chmod a+x ./vimconfig/install.sh
     * ./vimconfig/install.sh
     * gvim vimrc
