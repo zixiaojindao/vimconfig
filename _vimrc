@@ -55,6 +55,7 @@ Bundle 'Pydiction'
 Bundle 'matrix.vim--Yang'
 Bundle 'Align'
 Bundle 'c.vim'
+Bundle 'AutoClose'
 
 filetype plugin indent on
 filetype plugin on
