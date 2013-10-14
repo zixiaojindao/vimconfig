@@ -42,10 +42,11 @@
 * xml.vim
 * pydiciton
 * A.vim
-* c++ complie
-    * &lt;F5&gt; build single source file
-    * &lt;F6&gt; make
+* c.vim
+    * \rc: save and compile single source file
+    * \rr: compile and run single source file
     * windows users should download [mingw](http://www.mingw.org/), install gcc and add bin to $PATH
+* Align
 * solarized color scheme
 * highlight current line
     * shortcut: normal mode: cul

@@ -41,7 +41,7 @@ Bundle 'FuzzyFinder'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'zixiaojindao/calendar.vim'
 Bundle 'zixiaojindao/cscope_maps.vim'
-Bundle 'SuperTab-continued.'
+Bundle 'SuperTab'
 Bundle 'a.vim'
 Bundle 'minibufexpl.vim'
 Bundle 'neocomplcache'
@@ -53,6 +53,8 @@ Bundle 'OmniCppComplete'
 Bundle 'xml.vim'
 Bundle 'Pydiction'
 Bundle 'matrix.vim--Yang'
+Bundle 'Align'
+Bundle 'c.vim'
 
 filetype plugin indent on
 filetype plugin on
