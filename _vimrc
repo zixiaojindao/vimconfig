@@ -103,6 +103,9 @@ nmap ff :FufFile<CR>
 nmap ft :FufTag<CR>
 nmap ftf :FufTaggedFile<CR>
 
+"c.vim
+let g:C_Ctrl_j = 'off'
+
 "diff
 set diffexpr=MyDiff()
 function MyDiff()
